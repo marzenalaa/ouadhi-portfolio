@@ -26,8 +26,8 @@ const About = () => {
             <p className="">{about.description}</p>
             <div className="my-6">
               {about.aboutInfo.map((item) => (
-                <div className="flex gap-4 my-1">
-                  <h5 className="w-24 text-violet-200">{item.title}:</h5>{" "}
+                <div className="flex gap-4 my-1" key={item.id}>
+                  <h5 className="w-24 text-violet-200">{item.title}:</h5>
                   <p>{item.desc}</p>
                 </div>
               ))}

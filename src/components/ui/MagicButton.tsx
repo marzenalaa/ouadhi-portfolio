@@ -2,7 +2,6 @@ interface MagicButtonProps {
   title: string;
   icon?: React.ReactNode;
   position: string;
-  handleClick?: () => void;
   otherClasses?: string;
 }
 
@@ -10,7 +9,6 @@ const MagicButton = ({
   title,
   icon,
   position,
-  handleClick,
   otherClasses,
 }: MagicButtonProps) => {
   return (
