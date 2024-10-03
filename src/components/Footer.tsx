@@ -1,14 +1,13 @@
-import styles from "@/style";
-import React from "react";
-import { socialMedia } from "@/data";
 import Image from "next/image";
+import styles from "@/style";
+import { socialMedia } from "@/data";
 const Footer = () => {
   return (
     <section
       className={`${styles.section} ${styles.boxWidth} border-t border-white`}
     >
       <div
-        className={`${styles.flexCenter} sm:justify-between gap-6 my-8 flex-wrap`}
+        className={`${styles.flexCenter} text-center sm:justify-between gap-6 my-8 flex-wrap`}
       >
         <div className={`${styles.flexCenter} gap-6`}>
           {socialMedia.map((social) => (

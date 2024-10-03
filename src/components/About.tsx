@@ -1,5 +1,4 @@
 "use client";
-import React from "react";
 import Heading from "./Heading";
 import styles from "@/style";
 import MagicButton from "./ui/MagicButton";
@@ -32,7 +31,7 @@ const About = () => {
                 </div>
               ))}
             </div>
-            <a href={about.link}>
+            <a href={about.link} target="_blank">
               <MagicButton
                 title="Donwload CV"
                 icon={<FaDownload />}

@@ -3,20 +3,56 @@ import Linkedin from "../../public/linkedin.svg";
 import Whatsapp from "../../public/whatsapp.svg";
 import Email from "../../public/envelope.svg";
 import Address from "../../public/geo-alt.svg";
+import {
+  FaHouse,
+  FaUser,
+  FaFile,
+  FaKeyboard,
+  FaEnvelope,
+} from "react-icons/fa6";
 
 export const navItems = [
-  { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
-  { name: "Contact", link: "#contact" },
+  {
+    name: "Home",
+    link: "/",
+    icon: <FaHouse className="h-4 w-4 text-neutral-500 dark:text-white" />,
+  },
+  {
+    name: "About",
+    link: "#about",
+    icon: <FaUser className="h-4 w-4 text-neutral-500 dark:text-white" />,
+  },
+  {
+    name: "Experiences",
+    link: "#experiences",
+    icon: <FaFile className="h-4 w-4 text-neutral-500 dark:text-white" />,
+  },
+  {
+    name: "Services",
+    link: "#services",
+    icon: <FaKeyboard className="h-4 w-4 text-neutral-500 dark:text-white" />,
+  },
+  {
+    name: "Contact",
+    link: "#contact",
+    icon: <FaEnvelope className="h-4 w-4 text-neutral-500 dark:text-white" />,
+  },
 ];
+
+export const heroSection = {
+  subtitel: "Building Full-Stack Solutions from the Ground Up",
+  title: "Delivering Robust and Scalable Web Applications.",
+  description:
+    "Hi, I'm Mohammed, a Full Stack Engineer with a strong foundation in Java, Spring, and React. I specialize in building scalable and efficient web applications using modern technologies and best practices.",
+  buttonTitle: "Show my services",
+};
 
 export const about = {
   title: "Who am i?",
   subtitle: "I'm Mohammed OUADHI, a Full-stack Engineer.",
   description:
     "I am a freelancer based in the Luxembourg and i have been building noteworthy web applications for years, which comply with the latest technologies. I help convert a vision and an idea into meaningful and useful products. Having a sharp eye for product evolution helps me prioritize tasks, iterate fast and deliver faster.",
-  link: "#",
+  link: "https://firebasestorage.googleapis.com/v0/b/costum-email-signature.appspot.com/o/Mohammed_OUADHI.pdf?alt=media&token=59258185-2943-4fc7-a3a7-100931e3c823",
   aboutInfo: [
     { id: "1", title: "Full Name", desc: "Mohammed OUADHI" },
     { id: "2", title: "Age", desc: "32" },

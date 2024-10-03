@@ -1,5 +1,4 @@
 import styles from "@/style";
-import React from "react";
 import Heading from "./Heading";
 import ContactImg from "../../public/contact.png";
 import Image from "next/image";

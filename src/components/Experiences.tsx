@@ -1,18 +1,20 @@
-import React from "react";
 import Heading from "./Heading";
 import styles from "@/style";
 import { Timeline } from "./ui/Timeline";
 import { experiences } from "@/data";
 
-const Resume = () => {
+const Experiences = () => {
   return (
-    <section className={`${styles.section} ${styles.boxWidth}`} id="resume">
+    <section
+      className={`${styles.section} ${styles.boxWidth}`}
+      id="experiences"
+    >
       <div>
-        <Heading title="Resume" subtitle="Everything about me!" />
+        <Heading title="Experiences" subtitle="Everything about me!" />
         <Timeline data={experiences} />
       </div>
     </section>
   );
 };
 
-export default Resume;
+export default Experiences;

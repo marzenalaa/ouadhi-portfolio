@@ -1,17 +1,25 @@
-import Hero from "../components/Hero";
-import About from "@/components/About";
-import Services from "@/components/Services";
-import Contact from "@/components/Contact";
-import Footer from "@/components/Footer";
-import Resume from "@/components/Resume";
+import {
+  About,
+  Contact,
+  Experiences,
+  Footer,
+  Hero,
+  Services,
+  FloatingNav,
+} from "@/components";
+import { navItems } from "@/data";
+import styles from "@/style";
 
 const HomePage = () => {
   return (
-    <main className="relative flex justify-center items-center flex-col overflow-hidden bg-black-100 mx-auto sm:px-10 px-5 font-[family-name:var(--font-geist-sans)]">
+    <main
+      className={`relative ${styles.flexCenter} flex-col overflow-hidden bg-black-100 mx-auto sm:px-10 px-5 font-[family-name:var(--font-geist-sans)]`}
+    >
       <div className="max-w-7xl w-full">
+        <FloatingNav navItems={navItems} />
         <Hero />
         <About />
-        <Resume />
+        <Experiences />
         <Services />
         <Contact />
         <Footer />
