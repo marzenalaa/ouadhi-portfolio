@@ -1,12 +1,11 @@
 import Image from "next/image";
 
 interface ContactInfoCardProps {
-  id: string;
   img: string;
   title: string;
   desc: string;
 }
-const ContactInfoCard = ({ id, img, title, desc }: ContactInfoCardProps) => {
+const ContactInfoCard = ({ img, title, desc }: ContactInfoCardProps) => {
   return (
     <div className="bg-white flex items-center gap-4 sm:gap-8 p-3 my-8 rounded-md">
       <Image src={img} alt={title} className="h-6 md:h-8 w-6 md:w-8 md:m-4" />
