@@ -10,3 +10,5 @@ This is a [personal portfolio](https://ouadhi-portfolio.vercel.app/) website bui
 
 - Email: [marzenalaa@gmail.com](mailto:marzenalaa@gmail.com).
 - LinkedIn: [MARZEN AlaaEddine](https://www.linkedin.com/in/marzen-alaaeddine/).
+
+![shots_3](https://github.com/user-attachments/assets/55ef987f-16a1-419d-9e9b-ccbacad0998c)
