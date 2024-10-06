@@ -15,9 +15,9 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Mohammed OUADHI | Full Stack Engineer",
+  title: "Mohammed OUADHI | Software Engineer",
   description:
-    "I'm Mohammed, a Full Stack Engineer with a strong foundation in Java, Spring, and React.",
+    "I'm Mohammed OUADHI, a Software Engineer with a strong foundation in Java, Spring, and React.",
 };
 
 export default function RootLayout({

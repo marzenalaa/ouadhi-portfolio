@@ -5,6 +5,7 @@ import MagicButton from "./ui/MagicButton";
 import { FaDownload } from "react-icons/fa6";
 import { HoverEffect } from "./ui/HoverEffect";
 import { projects, about } from "@/data";
+import AboutHoverCard from "./cards/AboutHoverCard";
 
 const About = () => {
   return (
@@ -15,7 +16,7 @@ const About = () => {
           <div className={`${styles.flexCenter}`}>
             <img
               src="https://illustrations.popsy.co/purple/home-office.svg"
-              alt="ouadhi-mohammed"
+              alt="home-office"
               className="bg-white"
             />
           </div>
@@ -25,10 +26,7 @@ const About = () => {
             <p className="">{about.description}</p>
             <div className="my-6">
               {about.aboutInfo.map((item) => (
-                <div className="flex gap-4 my-1" key={item.id}>
-                  <h5 className="w-24 text-violet-200">{item.title}:</h5>
-                  <p>{item.desc}</p>
-                </div>
+                <AboutHoverCard key={item.id} {...item} />
               ))}
             </div>
             <a href={about.link} target="_blank">

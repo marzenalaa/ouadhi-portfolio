@@ -1,6 +1,7 @@
-import Image from "next/image";
 import styles from "@/style";
 import { socialMedia } from "@/data";
+import Link from "next/link";
+import SocialMediaCard from "./cards/SocialMediaCard";
 const Footer = () => {
   return (
     <section
@@ -11,24 +12,19 @@ const Footer = () => {
       >
         <div className={`${styles.flexCenter} gap-6`}>
           {socialMedia.map((social) => (
-            <div key={social.id} className={`h-8 sm:h-10 w-8 sm:w-10 `}>
-              <a href={social.link} target="_blank">
-                <Image src={social.img} alt={social.img} />
-              </a>
-            </div>
+            <SocialMediaCard key={social.id} {...social} />
           ))}
         </div>
-
         <p>Copyright &copy;2024 OUADHI Mohammed</p>
         <p>
           Devlopped by{" "}
-          <a
+          <Link
             href="https://www.linkedin.com/in/marzen-alaaeddine/"
             target="_blank"
             className="text-purple font-semibold"
           >
             AlaaEddin MARZEN
-          </a>
+          </Link>
         </p>
       </div>
     </section>

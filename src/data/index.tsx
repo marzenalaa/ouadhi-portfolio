@@ -43,13 +43,13 @@ export const heroSection = {
   subtitel: "Building Full-Stack Solutions from the Ground Up",
   title: "Delivering Robust and Scalable Web Applications.",
   description:
-    "Hi, I'm Mohammed, a Full Stack Engineer with a strong foundation in Java, Spring, and React. I specialize in building scalable and efficient web applications using modern technologies and best practices.",
+    "Hi, I'm Mohammed, a Software Engineer with a strong foundation in Java, Spring, and React. I specialize in building scalable and efficient web applications using modern technologies and best practices.",
   buttonTitle: "Show my services",
 };
 
 export const about = {
   title: "Who am i?",
-  subtitle: "I'm Mohammed OUADHI, a Full-stack Engineer.",
+  subtitle: "I'm Mohammed OUADHI, a Software Engineer.",
   description:
     "I am a freelancer based in the Luxembourg and i have been building noteworthy web applications for years, which comply with the latest technologies. I help convert a vision and an idea into meaningful and useful products. Having a sharp eye for product evolution helps me prioritize tasks, iterate fast and deliver faster.",
   link: "https://firebasestorage.googleapis.com/v0/b/costum-email-signature.appspot.com/o/Mohammed_OUADHI.pdf?alt=media&token=59258185-2943-4fc7-a3a7-100931e3c823",
@@ -292,8 +292,8 @@ export const projects = [
     title: "7+",
     description: "Years of Experience.",
   },
-  { id: "2", title: "50+", description: "Projects Completed." },
-  { id: "3", title: "10+", description: "Happy Clients" },
+  { id: "2", title: "10+", description: "Projects Completed." },
+  { id: "3", title: "7+", description: "Happy Clients" },
 ];
 
 export const services = [
@@ -302,42 +302,36 @@ export const services = [
     title: "Full-Stack Web Development",
     description:
       "Build responsive and dynamic web applications using modern front-end and back-end technologies.",
-    link: "#",
   },
   {
     id: "02",
     title: "Front-End Frameworks Integration",
     description:
       "Develop interactive user interfaces using frameworks like React, Angular, or Vue.js for enhanced user experience.",
-    link: "#",
   },
   {
     id: "03",
     title: "DevOps and Continuous Integration",
     description:
       "Set up automated deployment pipelines and integrate CI/CD tools to streamline development and deployment processes.",
-    link: "#",
   },
   {
     id: "04",
     title: "Database Design and Integration",
     description:
       "Create and manage databases, ensuring efficient data storage and retrieval using SQL and NoSQL databases.",
-    link: "#",
   },
   {
     id: "05",
     title: "Full-Stack Application Testing",
     description:
       "Implement comprehensive testing strategies, covering both front-end and back-end components to ensure application stability and reliability.",
-    link: "#",
   },
   {
     id: "06",
     title: "Back-End API Development",
     description:
       "Design and implement robust RESTful or GraphQL APIs to facilitate seamless communication between front-end and back-end.",
-    link: "#",
   },
 ];
 
@@ -345,42 +339,39 @@ export const contact = {
   text: "I'm currently avaliable to take on new projects, so feel free to send me a message about anything that you want to run past me.",
   contactInfo: [
     {
-      id: 1,
+      id: "1",
       title: "Address:",
       desc: "Luxembourg, 1 Op der Gare, 5730-Aspelt.",
       img: Address,
-      link: "#",
     },
     {
-      id: 2,
+      id: "2",
       title: "WhatsApp:",
       desc: "+213 553 485 908",
       img: Whatsapp,
-      link: "https://wa.me/213553485908",
     },
     {
-      id: 3,
+      id: "3",
       title: "Email:",
       desc: "ouadhimohammed@gmail.com",
       img: Email,
-      link: "mailto:ouadhimohammed@gmail.com",
     },
   ],
 };
 
 export const socialMedia = [
   {
-    id: 1,
+    id: "1",
     img: Github,
     link: "https://github.com/ouadhi",
   },
   {
-    id: 2,
+    id: "2",
     img: Linkedin,
     link: "https://www.linkedin.com/in/mohammed-ouadhi-66196510a/",
   },
   {
-    id: 3,
+    id: "3",
     img: Whatsapp,
     link: "https://wa.me/213553485908",
   },
